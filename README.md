@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import pdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pdiff@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-pdiff/tags). For example,
+
+```javascript
 import pdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pdiff@v0.2.1-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ v = pdiff( NaN, NaN );
 <script type="module">
 
 import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-minstd-shuffle@esm/index.mjs';
-import pdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pdiff@v0.2.1-esm/index.mjs';
+import pdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pdiff@esm/index.mjs';
 
 var x;
 var y;
